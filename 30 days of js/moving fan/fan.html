@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        #fan
+        {
+            height: 100px;
+            margin-left: 50%;
+            border: 1px solid black;
+            border-radius: 50px;
+            padding: 3px;
+
+            animation: spin linear infinite 0s;
+        }
+
+        .btn
+        {
+            border-radius: 50px;
+            background-color: pink;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+     </style>
+</head>
+<body>
+<div class="login-btn">
+<img src="fan.jpg" id="fan">
+</div>    
+
+      <button class="btn" onclick="off()">off</button>
+      <button class="btn" onclick="on()">on</button>
+       <button class="btn" onclick="one()">one</button>
+       <button class="btn" onclick="two()">two</button>
+       <button class="btn" onclick="three()">three</button>
+
+    </body>
+    <script src="app.js"></script>
+</html>

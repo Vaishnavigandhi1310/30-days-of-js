@@ -1,0 +1,20 @@
+ #btn-outline-dark{
+    /* text-align: center; */
+   margin-left: 40%;
+   justify-items: center;
+font-size: large;
+background-color: black;
+color: white;
+padding-top: 100px;
+}
+
+body{
+    background-color: linen;
+}
+
+col-sm-4{
+  text-decoration: black;
+  font-size: larger;
+  color: black;
+
+}

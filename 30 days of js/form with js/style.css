@@ -1,0 +1,15 @@
+#class{
+    height: 268px;
+    width: 268px;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#place{
+margin-left: 20px;
+margin-top: 20px;
+}
+
+#button{
+    margin-left: 20px;
+}
